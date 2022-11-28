@@ -1,0 +1,60 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+/* } */ 
+body{
+    background-image: linear-gradient(69.9deg,#4c4f6a 3.2%,#767ca3 97.6%);
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo a{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+nav ul li a:hover{
+    /* color: black;
+    transition: .3s; */
+    padding-block: inherit;
+    background: border-box;
+    color: navajowhite;
+}
+
+/* footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  } */
