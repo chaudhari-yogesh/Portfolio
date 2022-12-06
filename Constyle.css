@@ -2,10 +2,11 @@ body{
     /* background-image: linear-gradient(69.9deg,#4c4f6a 3.2%,#767ca3 97.6%); */
     /* background-color: black; */
     background-color: currentColor;
+    
 }
 
 .hero{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 
@@ -51,4 +52,77 @@ nav ul li a:hover{
     padding-block: inherit;
     background: border-box;
     color: gold;
+}
+
+.bar{
+    color: black;
+    border-radius: 9px;
+    text-align: center;
+    padding: 9px 0px 9px 0px;
+    font-size: 28px;
+    margin:5px 35% 5px 35%;
+    background-color: gold;
+}
+
+.form{
+
+     /* background-color: gold; */ 
+    background-size: cover;
+    padding: 40px;
+     
+}
+
+.form h1{
+    color: gold;
+
+    text-align: center;
+}
+
+/* .border{
+
+    width: 100px;
+    height: 10px;
+    background: red;
+    margin: 40px auto;
+} */
+
+.confo{
+
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+
+}
+
+.i1{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 0;
+    background-color: gold ;
+    padding:20px 40px;
+    outline: none;
+    color:black;
+    transition: 0.5s;
+    border-radius: 22px 0 22px 0;
+}
+.i1:hover{
+    box-shadow: 0 0 10px 4px #ddd;
+}
+.button{
+    float:right;
+    border:0;
+    background: gold;
+    color:black;
+    padding:12px 50px;
+    border-radius: 22px;
+    margin-top: 22px;
+}
+
+.button:hover{
+    background: black;
+    color: gold;
+    box-shadow: 0 0 10px 4px gold;
 }
