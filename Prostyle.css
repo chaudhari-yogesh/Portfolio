@@ -1,9 +1,3 @@
-
-/* *{
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
-/* } */ 
 body{
     /* background-image: linear-gradient(69.9deg,#4c4f6a 3.2%,#767ca3 97.6%); */
     /* background-color: black; */
@@ -59,53 +53,41 @@ nav ul li a:hover{
     color: gold;
 }
 
-/* footer {
-    text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
-  } */
+.card{
+background-color: gold;
+color: black;
+border-radius: 15px;
+margin-left: 80px;
+margin-top: 60px;
+height: 220px;
+padding: 29px;
 
-
-.info{
-    color: white;
-    justify-content: center;
-    margin-top: 130px;
-    margin-left: 144px;
-    /* align-items: center;*/
-} 
-
-.porya{
-    margin-left: 532px;
-    margin-top: -220px;
 }
 
-.icons{
-    color: white;
-    font-size: 32px;
-    margin-top: -104px;
-    margin-left: 129px;
-    /* padding: 10px 20px; */
+.card-title{
+    font-size: 20px;
+}
+
+.card-subtitle{
+    font-size: 15px;
+
+}
+
+.card-link{
+    font-size: 18px;
+    color: black;                               
+}
+
+.card2{
+    background-color: gold;
+    color: black;
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-top: 60px;
+    height: 220px;
+    padding: 29px;
     
 }
 
-#i1 i {
-    margin: 0px 22px;
-    color: white;
-}
 
-#i2{
-    color: white;
-}
 
-.buttons{
-    border-radius: 30px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    width: 112px;
-    height: 54px;
-    color: black;
-    background-color: gold;
-
-}
