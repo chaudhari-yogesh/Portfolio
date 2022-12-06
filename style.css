@@ -19,9 +19,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1px;
+    padding-top: 5px;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 4%;
 
 }
 
@@ -57,6 +57,7 @@ nav ul li a:hover{
     padding-block: inherit;
     background: border-box;
     color: gold;
+    border-radius: 20px;
 }
 
 /* footer {
